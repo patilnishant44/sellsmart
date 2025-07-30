@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./rice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rice Prices</title>
+</head>
+<body>
+    <main class="parent">
+          <nav class="navbar">
+              <article class="first">
+                <i class="fa-brands fa-cotton-bureau"><span>SellSmart</span></i>
+              </article>
+              <article class="third">
+                  <div style="display: inline;">
+                    <a href="./homepage.html" class="hom">Home</a>
+                    <a href="./mp.html" class="mp">Market  Prices</a> 
+                    <a href="./contact.html" class="con">Contact</a>
+                    <a href="./about.html" class="about">About</a>  
+              </article>
+            </nav>
+          <section class="marketprices">
+            <h2>Rice Market Prices in Different States</h2>
+            <div class="search-bar">
+              <input type="text" id="searchInput" placeholder="Enter State or City Name...">
+              <button onclick="searchTable()">Search</button>
+            </div>
+            <div id="noResults" style="display: none; position: relative; left: 500px; font-size: 19px; font-weight: 600; color: #0f6413;">No results found.</div>
+            <table id="marketTable">
+              <thead>
+                <tr>
+                  <th>State</th>
+                  <th>City</th>
+                  <th>Price (per quintal)</th>
+                  <th>Last Updated</th>
+                </tr>
+              </thead>
+              <tbody>
+                    <tr><td>Maharashtra</td><td>Sangli</td><td>₹6,500</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Solapur</td><td>₹3,845</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Ulhasnagar</td><td>₹4,500</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Karjat</td><td>₹5,100</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Bhandara</td><td>₹4,100</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Palghar</td><td>₹4,035</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Vasai</td><td>₹4,450</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Alibag</td><td>₹2,600</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Murud</td><td>₹2,600</td><td>April 21, 2025</td></tr>
+                    <tr><td>Maharashtra</td><td>Mangaon</td><td>₹3,800</td><td>April 21, 2025</td></tr>
+                
+                    <!-- Punjab -->
+                    <tr><td>Punjab</td><td>Amritsar</td><td>₹2,380</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Ludhiana</td><td>₹2,420</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Patiala</td><td>₹2,390</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Ferozepur</td><td>₹2,410</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Bathinda</td><td>₹2,400</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Sangrur</td><td>₹2,370</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Hoshiarpur</td><td>₹2,365</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Gurdaspur</td><td>₹2,360</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Moga</td><td>₹2,375</td><td>April 21, 2025</td></tr>
+                    <tr><td>Punjab</td><td>Kapurthala</td><td>₹2,355</td><td>April 21, 2025</td></tr>
+                
+                    
+                    <tr><td>West Bengal</td><td>Bardhaman</td><td>₹2,400</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>Malda</td><td>₹2,380</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>Nadia</td><td>₹2,370</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>Howrah</td><td>₹2,360</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>Hooghly</td><td>₹2,355</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>Birbhum</td><td>₹2,340</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>Murshidabad</td><td>₹2,330</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>North 24 Parganas</td><td>₹2,320</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>South 24 Parganas</td><td>₹2,310</td><td>April 21, 2025</td></tr>
+                    <tr><td>West Bengal</td><td>Jalpaiguri</td><td>₹2,305</td><td>April 21, 2025</td></tr>
+
+                    <tr><td>Uttar Pradesh</td><td>Varanasi</td><td>₹2,290</td><td>April 21, 2025</td></tr>
+                    <tr><td>Uttar Pradesh</td><td>Gorakhpur</td><td>₹2,300</td><td>April 21, 2025</td></tr>
+                    <tr><td>Uttar Pradesh</td><td>Lucknow</td><td>₹2,320</td><td>April 21, 2025</td></tr>
+                    <tr><td>Uttar Pradesh</td><td>Kanpur</td><td>₹2,330</td><td>April 21, 2025</td></tr>
+                    <tr><td>Uttar Pradesh</td><td>Barabanki</td><td>₹2,280</td><td>April 21, 2025</td></tr>
+              
+                    <tr><td>Andhra Pradesh</td><td>East Godavari</td><td>₹2,420</td><td>April 21, 2025</td></tr>
+                    <tr><td>Andhra Pradesh</td><td>Krishna</td><td>₹2,390</td><td>April 21, 2025</td></tr>
+                    <tr><td>Andhra Pradesh</td><td>West Godavari</td><td>₹2,410</td><td>April 21, 2025</td></tr>
+                    <tr><td>Andhra Pradesh</td><td>Kurnool</td><td>₹2,365</td><td>April 21, 2025</td></tr>
+                    <tr><td>Andhra Pradesh</td><td>Guntur</td><td>₹2,370</td><td>April 21, 2025</td></tr>
+              
+                    <tr><td>Tamil Nadu</td><td>Thanjavur</td><td>₹2,250</td><td>April 21, 2025</td></tr>
+                    <tr><td>Tamil Nadu</td><td>Kumbakonam</td><td>₹2,230</td><td>April 21, 2025</td></tr>
+                    <tr><td>Tamil Nadu</td><td>Trichy</td><td>₹2,240</td><td>April 21, 2025</td></tr>
+                    <tr><td>Tamil Nadu</td><td>Salem</td><td>₹2,235</td><td>April 21, 2025</td></tr>
+                    <tr><td>Tamil Nadu</td><td>Madurai</td><td>₹2,225</td><td>April 21, 2025</td></tr>
+
+                        
+    </main>
+    <script src="./search.js"> </script>                
+</body>
+</html>

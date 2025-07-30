@@ -1,0 +1,248 @@
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.parent{
+  height: 100vh;
+  width: 100%;
+  display:grid;
+}
+
+body {
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+nav{
+  height: 4rem;
+  width: 100%;
+  background-color: #0f6413;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar .first i{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 10px;
+
+}
+.navbar .first span{
+  color: rgb(255, 193, 69);
+  font-size: 20px;
+  position: relative;
+  top:-5px;
+  font-weight: 700;
+}
+
+.navbar .third a:hover{
+  color: white;
+  padding: 4px 6px;
+  background-color: rgb(255, 193, 69);
+  color: #0f6413;
+  border-radius: 20px;
+}
+
+.navbar .third a{
+  text-decoration: none;
+  padding: 4px 6px;
+}
+.navbar .third .hom{
+  position: relative;
+  right: 200px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+
+}
+.navbar .third .cat{
+  position: relative;
+  right: 150px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+}
+.navbar .third .con{
+  position: relative;
+  right: 100px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+}
+.navbar .third .about{
+  position: relative;
+  right: 50px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+}
+.navbar .third input{
+  padding: 7px 20px ;
+  border-radius: 20px; 
+  box-shadow: 2px 4px 3px #0f6413;
+  background-color: rgb(255, 193, 69);
+  position: relative;
+  right: 20px;
+}
+.navbar .third i{
+    padding: 7px 10px ;
+    border-radius: 20px; 
+    position: relative;
+    right: 30px;
+  
+  
+}
+
+
+.navbar .third .login{
+  padding: 7px 14px ;
+  background-color: rgb(255, 193, 69);
+  border-radius: 20px;
+  position: relative;
+  right: 20px;
+  font-weight: 550;
+  color: rgb(20, 80, 20);
+}
+.navbar .third .login:hover{
+  background-color: green;
+  color: rgb(255, 193, 69);
+  padding: 7px 14px ;
+}
+
+.fourth{
+  position: relative;
+  top: 4rem;
+}
+
+.language-selector {
+  margin-right: 15px;
+  padding: 7px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(255, 193, 69);
+  color:rgb(20, 80, 20);
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.home{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./home.jpg);
+  opacity: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+.home1 h1{
+  position: absolute;
+  top: 30px;
+  left: 520px;
+  color: green;
+  font-size: 43px;
+  text-decoration: none;
+  padding: top;
+  font-family:serif;
+  font-style:normal;
+  font-weight: 700;
+  border: 4px solid rgb(200, 155, 86);
+  border-radius: 30px;
+  padding: 8px 50px;
+}
+
+
+.home1 .box {
+  position: relative;
+  top: -500px;
+  left: 50px;
+}
+
+.home1 .box1 {
+  height: 350px;
+  width: 900px;
+  position: relative;
+  top: -800px;
+  left: 560px;
+}
+
+.home1 .box1 p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 550;
+    text-align: justify;
+    letter-spacing: 4px;
+}
+.about1{
+  height:100vh;
+  width: 100%;
+  background-image:url(./background\ about.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100.4vh;
+  position: relative;
+  top: -593px;
+}
+
+.about1 h1{
+  color:rgb(92, 72, 41);
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.about1 .box2{
+  height: 300px;
+  width: 1200px;
+  position: relative;
+  left: 170px;
+  top: 220px;
+}
+.about1 .box2 p{
+  color: rgb(255, 237, 210);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: justify;
+  letter-spacing: 4px;
+}
+.about1 .icons{
+  position: absolute;
+  left: 600px;
+  top: 370px;
+  color: rgb(200, 155, 86);
+}
+
+.about1 .icons p{
+  position: relative;
+  left: -260px;
+  font-weight: 600;
+  top: 41px;
+  color: rgb(255, 237, 210);
+}
+.about1 .icons i{
+  color: rgb(255, 237, 210);
+  font-size: 29px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+
+}
+.about1 .icons i:hover{
+  color: rgb(200, 155, 86);
+}
+
+.about1 .icons i:active{
+  box-shadow: 0 0 15px 4px rgb(12, 74, 14);
+  background-color: rgb(255, 193, 69);
+}
+
+
+  

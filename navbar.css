@@ -1,0 +1,94 @@
+nav{
+  height: 4rem;
+  width: 100%;
+  background-color: #0f6413;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar .first i{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 10px;
+
+}
+.navbar .first span{
+  color: rgb(255, 193, 69);
+  font-size: 20px;
+  position: relative;
+  top:-5px;
+  font-weight: 700;
+}
+
+.navbar .third a:hover{
+  color: white;
+  padding: 4px 6px;
+  background-color: rgb(255, 193, 69);
+  color: #0f6413;
+  border-radius: 20px;
+}
+
+.navbar .third a{
+  text-decoration: none;
+  padding: 4px 6px;
+}
+.navbar .third .hom{
+  position: relative;
+  right: 200px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+
+}
+.navbar .third .cat{
+  position: relative;
+  right: 150px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+}
+.navbar .third .con{
+  position: relative;
+  right: 100px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+}
+.navbar .third .about{
+  position: relative;
+  right: 50px;
+  color: rgb(255, 193, 69);
+  font-weight: 500;
+}
+.navbar .third input{
+  padding: 7px 20px ;
+  border-radius: 20px; 
+  box-shadow: 2px 4px 3px #0f6413;
+  background-color: rgb(255, 193, 69);
+  color: #0f6413;
+  font-weight: 700;
+  position: relative;
+  right: 20px;
+}
+.navbar .third i{
+    padding: 7px 10px ;
+    border-radius: 20px; 
+    position: relative;
+    right: 30px;  
+}
+
+.navbar .third .login{
+  padding: 7px 14px ;
+  background-color: rgb(255, 193, 69);
+  border-radius: 20px;
+  position: relative;
+  right: 20px;
+  font-weight: 550;
+  color: rgb(20, 80, 20);
+}
+.navbar .third .login:hover{
+  background-color: green;
+  color: rgb(255, 193, 69);
+  padding: 7px 14px ;
+}

@@ -1,0 +1,75 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 400; 
+      height: 100vh;
+      background-image: url(./login2.jpg);
+      margin: 0;
+    }
+
+    .contact-box {
+      background-color: green;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      text-align: center;
+    }
+
+    .contact-box h1 {
+      margin-bottom: 20px;
+      color: rgb(255, 193, 69);
+    }
+
+    .contact-box input,
+    .contact-box textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      resize: none;
+      font-size: 14px;
+    }
+
+    .contact-box button {
+      background-color: rgb(255, 193, 69);
+      color: green;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .contact-box button:hover {
+      background-color: #218838;
+      color: rgb(255, 193, 69);
+    }
+
+    .contact-box p {
+      margin-top: 20px;
+      font-size: 16px;
+      color: rgb(255, 193, 69);
+    }
+
+    .icons {
+      margin-top: 15px;
+      font-size: 30px;
+    }
+
+    .icons i {
+      margin: 0 10px;
+      color:rgb(255, 193, 69);
+      cursor: pointer;
+    }
+
+    .icons i:hover {
+      color: #28a745;
+    }

@@ -1,0 +1,199 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+  }
+  .parent{
+    height: 100vh;
+    width: 100%;
+  }
+  
+  nav{
+    height: 4rem;
+    width: 100%;
+    background-color: #0f6413;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .navbar .first i{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 10px;
+  
+  }
+  .navbar .first span{
+    color: rgb(255, 193, 69);
+    font-size: 20px;
+    position: relative;
+    top:-5px;
+    font-weight: 700;
+  }
+  
+  .navbar .third a:hover{
+    color: white;
+    padding: 4px 6px;
+    background-color: rgb(255, 193, 69);
+    color: #0f6413;
+    border-radius: 20px;
+  }
+  
+  .navbar .third a{
+    text-decoration: none;
+  }
+  .navbar .third .hom{
+    position: relative;
+    right: 200px;
+    color: rgb(255, 193, 69);
+    font-weight: 500;
+  
+  }
+  .navbar .third .mp{
+    position: relative;
+    right: 150px;
+    background-color: rgb(255, 193, 69);
+    padding: 7px 20px;
+    border-radius: 30px;
+    color: #0f6413;
+    font-weight: 500;
+  }
+  .navbar .third .con{
+    position: relative;
+    right: 100px;
+    color: rgb(255, 193, 69);
+    font-weight: 500;
+  }
+  .navbar .third .about{
+    position: relative;
+    right: 50px;
+    color: rgb(255, 193, 69);
+    font-weight: 500;
+  }
+  .navbar .third input{
+    padding: 7px 20px ;
+    border-radius: 20px; 
+    box-shadow: 2px 4px 3px #0f6413;
+    position: relative;
+    right: 20px;
+  }
+  .navbar .third i{
+    padding: 7px 10px ;
+    border-radius: 20px; 
+    position: relative;
+    right: 30px;
+  }
+  
+  
+  .navbar .third .login{
+    padding: 7px 14px ;
+    background-color: rgb(255, 193, 69);
+    border-radius: 20px;
+    position: relative;
+    right: 20px;
+    font-weight: 550;
+    color: rgb(20, 80, 20);
+  }
+  .navbar .third .login:hover{
+    background-color: green;
+    color: rgb(255, 193, 69);
+  }
+  
+  .fourth{
+    position: relative;
+    top: 4rem;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    background-image:linear-gradient(#0f6413,white);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    background-image:url(./login.jpg);
+    background-size: cover;
+    width: 350px;
+    color: #0f6413;
+    font-size: 17px;
+    position: relative;
+    top: 150px;
+    left: 600px;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #0f6413;
+    border-radius: 20px;
+}
+
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    text-shadow: -1px -1px 0 rgb(255, 193, 69),
+                  1px -1px 0 rgb(255, 193, 69),
+                 -1px  1px 0 rgb(255, 193, 69),
+                  1px  1px 0 rgb(255, 193, 69); 
+    
+}
+
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    color: #0f6413;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(255, 193, 69);
+    color: #0f6413;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+button:hover{
+    background-color: white;
+    color: #0f6413;
+    border: 2px solid #0f6413;
+}
+
+
+#result{
+    margin-top: 20px;
+    font-weight: 600;
+}

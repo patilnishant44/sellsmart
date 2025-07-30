@@ -1,0 +1,215 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+  }
+  .parent{
+    background-image: linear-gradient(white,rgb(255, 193, 69));
+    background-position:100vh;
+    height: 5000px;
+    width: 100%;
+  }
+
+
+  nav{
+    height: 4rem;
+    width: 100%;
+    background-color: #0f6413;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+  }
+  
+  .navbar .first i{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 10px;
+  
+  }
+  .navbar .first span{
+    color: rgb(255, 193, 69);
+    font-size: 20px;
+    position: relative;
+    top:-5px;
+    font-weight: 700;
+  }
+  
+  .navbar .third a:hover{
+    color: white;
+    padding: 4px 6px;
+    background-color: rgb(255, 193, 69);
+    color: #0f6413;
+    border-radius: 20px;
+  }
+  
+  .navbar .third a{
+    text-decoration: none;
+  }
+  .navbar .third .hom{
+    position: relative;
+    right: 200px;
+    color: rgb(255, 193, 69);
+    font-weight: 500;
+  
+  }
+  .navbar .third .mp{
+    position: relative;
+    right: 150px;
+    background-color: rgb(255, 193, 69);
+    padding: 7px 20px;
+    border-radius: 30px;
+    color: #0f6413;
+    font-weight: 500;
+  }
+  .navbar .third .con{
+    position: relative;
+    right: 100px;
+    color: rgb(255, 193, 69);
+    font-weight: 500;
+  }
+  .navbar .third .about{
+    position: relative;
+    right: 50px;
+    color: rgb(255, 193, 69);
+    font-weight: 500;
+  }
+  .navbar .third input{
+    padding: 7px 20px ;
+    border-radius: 20px; 
+    box-shadow: 2px 4px 3px #0f6413;
+    position: relative;
+    right: 20px;
+  }
+  .navbar .third i{
+    padding: 7px 10px ;
+    border-radius: 20px; 
+    position: relative;
+    right: 30px;
+  }
+  
+  .navbar .third .login{
+  padding: 7px 14px ;
+  background-color: rgb(255, 193, 69);
+  border-radius: 20px;
+  position: relative;
+  right: 20px;
+  font-weight: 550;
+  color: rgb(20, 80, 20);
+}
+.navbar .third .login:hover{
+  background-color: green;
+  color: rgb(255, 193, 69);
+  padding: 7px 14px ;
+}
+
+.fourth{
+  position: relative;
+  top: 4rem;
+}
+
+  
+  .language-selector {
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 193, 69);
+    color:rgb(20, 80, 20);
+    font-weight: 550;
+    font-size: 16px;
+  }
+
+   .category {
+ 
+  position: relative;
+  top: 80px;
+}
+
+.category h2 {
+  font-size: 30px;
+  color: #333;
+  /* border-bottom: 2px solid #ffc145; */
+  padding-bottom: 5px;
+}
+
+h2{
+    position: relative;
+    left: 700px;
+}
+
+.parent1{
+    width:100%; 
+    position: relative;
+    top: 50;
+}
+
+.parent1 .cards{
+     display: grid;
+     margin: 80px;
+     grid-template-columns: repeat(4,1fr);
+     
+}
+
+.parent1 .card{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+    border: 3px solid rgb(37, 91, 37);
+    box-shadow: 1px 1px 3px 1px rgb(117, 115, 115);
+    background-color:rgb(255, 205, 106);
+    border-radius: 30px;
+}
+
+.parent1 .card:hover{
+  transform: scale(1.02);
+  box-shadow: 3px 3px 10px 3px;
+}
+.parent1 img{
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 28px;
+}
+
+.parent1 h1{
+    position: relative;
+    left: 110px;
+    font-size:20px;
+    font-weight: 600;
+    color: rgb(22, 84, 22);
+}
+
+.cards p{
+    position: relative;
+    top: 30px;
+    left:100px;
+}
+.cards button{
+    position: relative;
+    top: 50px;
+    font-size: 17px;
+    background-color: #105213;
+    padding: 7px 15px;
+    color: rgb(255, 193, 69);
+    left:77px
+}
+
+.cards button:hover{
+  background-color: rgb(255, 193, 69);
+  color: rgb(13, 71, 13);
+  border: 3px solid rgb(15, 80, 15);
+  font-weight: 600;
+}
+
+.cards button:active{
+  background-color: white;
+}
